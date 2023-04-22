@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightpink;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 50px auto;
+    margin-top: 150px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    color:lightpink;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    text-align: left;
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid pink;
+  }
+  
+  button[type="submit"] {
+    background-color: lightpink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
